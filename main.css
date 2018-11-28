@@ -1,19 +1,24 @@
-article{
+html{
     display: inline;
-    padding: 1em;
+    text-align: center;
     margin: auto;
 }
+article{    
+    display: inline;
+    padding: .3em;
+    justify-content: space-evenly
+}
 
-#a1{
+#a1{ 
     border-style: solid;
     border-width: 2px;
     border-color: green;
-    padding: 1em;
+    padding: .3em;
 }
 
-#a2{
+#a2{ 
     border-style: solid;
     border-width: 2px;
     border-color: red;
-    padding: 1em;
+    padding: .3em;
 }
